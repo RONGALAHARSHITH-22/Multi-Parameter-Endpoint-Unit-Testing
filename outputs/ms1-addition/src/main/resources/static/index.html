@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MS 1.1 Addition Test Cases</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 64px auto; padding: 0 20px; color: #222; }
+    section { margin: 18px 0; padding: 18px; border: 1px solid #ddd; border-radius: 8px; }
+    .success { color: #16733b; }
+    .failure { color: #b42318; }
+  </style>
+</head>
+<body>
+  <h1>MS 1.1 Addition</h1>
+  <section>
+    <h2>Success case: a = -5, b = 5</h2>
+    <p class="success">HTTP 200 OK — MS 1.1 - Additon = 0</p>
+  </section>
+  <section>
+    <h2>Failure case: a = abc, b = 5</h2>
+    <p class="failure">HTTP 400 Bad Request — invalid number rejected</p>
+  </section>
+</body>
+</html>
